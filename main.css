@@ -6,6 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.bg-dark {
+    background-color: #000 !important;
+}
 
 /*------------------------------------
 - COLOR primary
