@@ -6,6 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: #3f3f3f !important;
+    text-decoration-line: none !important;
+}
+
 .bg-dark {
     background-color: #000 !important;
 }
@@ -155,4 +160,8 @@ button.bg-primary:focus {
 
 a.text-primary:hover, a.text-primary:focus {
     color: #cd1111 !important;
+}
+
+.text-gray {
+    color: #3f3f3f;
 }
