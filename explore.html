@@ -71,9 +71,13 @@
             </div>
             <div class='row align-items-center'>
                 <div class='col-md-6 order-md-2'>
+                    <!--title of whatever carousel item is clicked-->
+                    <div class='bg-primary d-none d-md-block ml-md-auto small w-50 py-2'>
+                        <p class='text-white'><b>Admin Portals</b></p>
+                    </div>
                     <img src='assets/admin-portal.svg' alt='admin portal' class='img-fluid mt-2' />
                 </div>
-                <div class='col-md-6 order-md-1'>
+                <div class='col-md-6 shadow-md order-md-1'>
                     <div>
                         <h4 class='text-primary mt-2'><b>Admin Portals</b></h4>
                         <p class='small'>One central gateway to exert control over 
@@ -81,6 +85,7 @@
                             featured in the rXg.</p>
                     </div>
 
+                    <!--TO DO this is clickable-->
                     <div class='d-flex flex-row'>
                         <div class='col px-1'>
                             <img src='assets/admin-portal.svg' alt='admin portal' class='img-fluid'/>
@@ -102,81 +107,89 @@
 
     <div class='card mt-1'>
         <div class='card-body px-0'>
-            <div class='bg-primary small w-50 py-2 mb-2'>
-                <p class='text-white small'><b>What is the rXg?</b></p>
+            <div class='d-md-flex flex-md-row justify-content-between'>
+                <div class='bg-primary small w-50 py-2 mb-2'>
+                    <p class='text-white small'><b>What is the rXg?</b></p>
+                </div>
+                <!--TO DO this is way smaller -->
+                <button class='btn btn-primary rounded text-white small'>Download Info</button>
             </div>
-            <!--TO DO this is way smaller -->
-             <button class='btn btn-primary rounded text-white small'>Download Info</button>
-            <div class='mt-2'>
-                <p class='small'>The rXg is an all-in-one unified solution 
-                            that provides everything needed to operate a 
-                            profitable revenue generating network. Deploy an 
-                            rXg turn-key gateway or OEM software as a trunk 
-                            interceptor between a wired or wireless network and 
-                            the Internet.
-                </p>
-            </div>
-            <img src='assets/rxg.svg' alt='rxg' class='img-fluid' />
-            <div class='mb-1 px-1'>
-                <h5 class='text-primary'>Who We Are</h5>
-                <p class='small'>Everybody involved in creating rXg, from the 
-                    very first day right up until today, is a practicing 
-                    engineer. We have lived the pain of large-scale network 
-                    operations and end-user support. We know exactly what the 
-                    issues are. We have learned exactly how to fix them through 
-                    hard work and decades of experience. We have dedicated our 
-                    lives to creating a product that is so good we would have 
-                    spent our own money to buy it to run the networks that we 
-                    used to operate. We believe we have achieved this goal with 
-                    the rXg.
-                </p>
-            </div>
-            <div class='mb-1 px-1'>
-                <h5 class='text-primary'>What We Made</h5>
-                <p class='small'>One box. One GUI. Completely unified. Fully 
-                    integrated. All the features that service providers need 
-                    to obtain total control, clear communication and complete 
-                    cognizance over their end-user population. Advanced services 
-                    specifically designed for services providers to rapidly 
-                    execute mass deployment, aggregated reporting and even 
-                    manage the southbound switches from an API. Pluggable, 
-                    future-proof platform, where everything talks to everything 
-                    … enabling operators to deploy configurations that were not 
-                    imagined by the architects. The rXg is designed to be the 
-                    only thing sitting between a wired and/or wireless distribution 
-                    infrastructure and the Internet.
-                </p>
-            </div>
-            <div class='mb-1 px-1'>
-                <h5 class='text-primary'>Who Uses It</h5>
-                <p class='small'>As scientists and engineers we believe in 
-                    statements of fact. We have been in operation for over 
-                    14 years. Three of the six largest telcos in the USA 
-                    (measured by revenue) run rXg at scale. Two of the four 
-                    busiest airports in the USA (measured by pax per year) 
-                    run their network through rXg. Three of the fifteen largest 
-                    independent hotel management companies in the USA have 
-                    standardized on rXg. There are thousands of rXgs running 
-                    the biggest networks in existence for over a decade. We 
-                    believe these facts demonstrate the relevance of the RG Nets 
-                    approach.</p>
-            </div>
-        </div>
-    </div>
 
-    <div class='card'>
-        <div class='card-body mx-auto'>
-            <p class='small text-primary'><b>Noteworthy Links</b></p>
-            <div>
-                <img src='assets/links.svg' alt='linked article' class='img-fluid mb-1' />
-            </div>
-            <div>
-                <img src='assets/links.svg' alt='linked article' class='img-fluid mb-1' />
-            </div>
-            <div>
-                <img src='assets/links.svg' alt='linked article' class='img-fluid mb-1' />
+            <div class='row'>
+                <div class='mt-2 col-md-4'>
+                    <p class='small'>The rXg is an all-in-one unified solution 
+                                that provides everything needed to operate a 
+                                profitable revenue generating network. Deploy an 
+                                rXg turn-key gateway or OEM software as a trunk 
+                                interceptor between a wired or wireless network and 
+                                the Internet.
+                    </p>
+                    <img src='assets/rxg.svg' alt='rxg' class='img-fluid' />
+                </div>
+                <div class='col-md-4'>
+                <div class='mb-1 px-1'>
+                    <h5 class='text-primary'>Who We Are</h5>
+                    <p class='small'>Everybody involved in creating rXg, from the 
+                        very first day right up until today, is a practicing 
+                        engineer. We have lived the pain of large-scale network 
+                        operations and end-user support. We know exactly what the 
+                        issues are. We have learned exactly how to fix them through 
+                        hard work and decades of experience. We have dedicated our 
+                        lives to creating a product that is so good we would have 
+                        spent our own money to buy it to run the networks that we 
+                        used to operate. We believe we have achieved this goal with 
+                        the rXg.
+                    </p>
+                </div>
+                <div class='mb-1 px-1'>
+                    <h5 class='text-primary'>What We Made</h5>
+                    <p class='small'>One box. One GUI. Completely unified. Fully 
+                        integrated. All the features that service providers need 
+                        to obtain total control, clear communication and complete 
+                        cognizance over their end-user population. Advanced services 
+                        specifically designed for services providers to rapidly 
+                        execute mass deployment, aggregated reporting and even 
+                        manage the southbound switches from an API. Pluggable, 
+                        future-proof platform, where everything talks to everything 
+                        … enabling operators to deploy configurations that were not 
+                        imagined by the architects. The rXg is designed to be the 
+                        only thing sitting between a wired and/or wireless distribution 
+                        infrastructure and the Internet.
+                    </p>
+                </div>
+                <div class='mb-1 px-1'>
+                    <h5 class='text-primary'>Who Uses It</h5>
+                    <p class='small'>As scientists and engineers we believe in 
+                        statements of fact. We have been in operation for over 
+                        14 years. Three of the six largest telcos in the USA 
+                        (measured by revenue) run rXg at scale. Two of the four 
+                        busiest airports in the USA (measured by pax per year) 
+                        run their network through rXg. Three of the fifteen largest 
+                        independent hotel management companies in the USA have 
+                        standardized on rXg. There are thousands of rXgs running 
+                        the biggest networks in existence for over a decade. We 
+                        believe these facts demonstrate the relevance of the RG Nets 
+                        approach.</p>
+                </div>
+                </div>
+
+                <div class='card col-md-4 px-0'>
+                    <div class='card-body mx-auto'>
+                        <p class='small text-primary'><b>Noteworthy Links</b></p>
+                        <div>
+                            <img src='assets/links.svg' alt='linked article' class='img-fluid mb-1' />
+                        </div>
+                        <div>
+                            <img src='assets/links.svg' alt='linked article' class='img-fluid mb-1' />
+                        </div>
+                        <div>
+                            <img src='assets/links.svg' alt='linked article' class='img-fluid mb-1' />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
 
     <div class='card'>
@@ -185,53 +198,53 @@
                 <h4 class='text-white text-right'><b>Features</b></h4>
             </div>
             <div class='row pt-3'>
-                <div class='col px-3 pt-3 text-center'>
+                <div class='col col-md-3 px-3 pt-3 text-center'>
                     <img src='assets/firewall.svg' alt='stateful firewall' class='img-fluid' />
                     <p class='small text-primary mb-0'><b>Stateful Firewall</b></p>
                     <p class='small text-primary'>filter forwarding intrusion protection</p>
                 </div>
-                <div class='col px-3 text-center'>
+                <div class='col col-md-3 px-3 text-center'>
                     <img src='assets/instrumentation.svg' alt='instrumentation' class='img-fluid' />
                     <p class='small text-primary mb-0'><b>Instrumentation</b></p>
                     <p class='small text-primary'>real-time graphs, node monitoring,
                         resource consumption, dashboards
                     </p>
                 </div>
-                <div class="w-100"></div>
-                <div class='col px-3 text-center'>
+                <div class="w-100 d-md-none"></div>
+                <div class='col col-md-3 px-3 text-center'>
                     <img src='assets/auditing.svg' alt='auditing' class='img-fluid' />
                     <p class='small text-primary mb-0'><b>Auditing</b></p>
                     <p class='small text-primary'>surfing histories, consumption, 
                         comparisons, health logging
                     </p>
                 </div>
-                <div class='col px-3 text-center'>
+                <div class='col col-md-3 px-3 text-center'>
                     <img src='assets/core-services.svg' alt='core services' class='img-fluid' />
                     <p class='small text-primary pt-3 mb-0'><b>Core Services</b></p>
                     <p class='small text-primary'>DHCP, DNS, RADIUS server</p>
                 </div>
-                <div class="w-100"></div>
-                <div class='col px-3 text-center'>
+                <div class="w-100 d-md-none"></div>
+                <div class='col col-md-3 px-3 text-center'>
                     <img src='assets/advanced-routing.svg' alt='advanced routing' class='img-fluid' />
                     <p class='small text-primary mb-0'><b>Advanced Routing</b></p>
                     <p class='small text-primary'>aggregation, fallover, affinity, diversity</p>
                 </div>
-                <div class='col px-3 text-center'>
+                <div class='col col-md-3 px-3 text-center'>
                     <img src='assets/web-experience.svg' alt='web experience manipulation' class='img-fluid' />
                     <p class='small text-primary mb-0'><b>Web Experience Manipulation</b></p>
                     <p class='small text-primary'>interstitial advertising, inline injection,
                         arbitrary rewriting, caching
                     </p>
                 </div>
-                <div class="w-100"></div>
-                <div class='col px-3 text-center'>
+                <div class="w-100 d-md-none"></div>
+                <div class='col col-md-3 px-3 text-center'>
                     <img src='assets/billing.svg' alt='seamless billing' class='img-fluid' />
                     <p class='small text-primary mb-0'><b>Seamless Billing</b></p>
                     <p class='small text-primary'>credit card processing, single use coupons,
                         zero-cost services
                     </p>
                 </div>
-                <div class='col px-3 text-center'>
+                <div class='col col-md-3 px-3 text-center'>
                     <img src='assets/traffic-shaping.svg' alt='per-user traffic shaping' class='img-fluid' />
                     <p class='small text-primary mb-0'><b>Per-User Traffic Shaping</b></p>
                     <p class='small text-primary'>rate-limiting, rate guarantees, download quotas,
