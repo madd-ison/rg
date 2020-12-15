@@ -10,6 +10,10 @@
     background-color: #000 !important;
 }
 
+.card {
+    border: none !important;
+}
+
 /*------------------------------------
 - COLOR primary
 ------------------------------------*/
