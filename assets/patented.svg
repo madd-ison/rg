@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="31" viewBox="0 0 56 31">
+  <g id="Group_6343" data-name="Group 6343" transform="translate(-1045 -428)">
+    <g id="Rectangle_101" data-name="Rectangle 101" transform="translate(1045 428)" fill="none" stroke="#ed2525" stroke-width="1">
+      <rect width="56" height="31" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="55" height="30" rx="3.5" fill="none"/>
+    </g>
+    <text id="Patented" transform="translate(1053 447)" fill="#ed2525" font-size="10" font-family="ArialMT, Arial"><tspan x="0" y="0">Patented</tspan></text>
+  </g>
+</svg>
