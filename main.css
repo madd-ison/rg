@@ -14,9 +14,17 @@ a {
 .bg-dark {
     background-color: #000 !important;
 }
+.bg-overlay{
+    background-image: url(assets/blue-bg.svg);
+    background-size: cover;
+}
 
 .card {
     border: none !important;
+}
+
+.input-r {
+    border-radius: 25px !important;
 }
 
 /*------------------------------------

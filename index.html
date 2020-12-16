@@ -13,10 +13,9 @@
     <title>rgnets.com</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-md-4">
-      <!-- TO DO will be black -->
+    <nav class="navbar navbar-expand-md navbar-light py-md-4">
       <a class="navbar-brand" href="#">
-          <img src='assets/rg-header.svg' />
+          <img src='assets/rgnets.svg' />
       </a>
     
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -26,13 +25,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
         <ul class="navbar-nav text-center float-right">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Explore</a>
+            <a class="nav-link" href="#">Explore</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Our Team</a>
+            <a class="nav-link" href="#">Our Team</a>
           </li>
           <li class="nav-item">
-            <button class="nav-link btn px-3 bg-dark text-white border-white" href="#">Store</button>
+            <a class="nav-link" href="#">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
           </li>
         </ul>
       </div>
@@ -55,7 +57,7 @@
           PROVIDERS TO MAXIMIZE REVENUE, MINIMIZE COST AND EASILY SCALE.</b></p>
       </div>
 
-      <div class='row align-items-center px-md-4'>
+      <div class='row align-items-center px-md-4 bg-overlay'>
           <div class='col-md-6'>
             <img src='assets/a4.svg' class='shadow img-fluid' />
           </div>
@@ -64,13 +66,30 @@
           </div>
       </div>
 
+      <div class='card mt-1'>
+          <div class='card-body px-0 px-md-1'>
+            <div class='row align-items-center px-1'>
+              <div class='col-md-6'>
+                <img src='assets/control.svg' alt='control' class='img-fluid' />
+              </div>
+              <div class='col-md-6'>
+                  <h4 class='text-gray mb-0'><b>CONTROL</b></h4>
+                  <p class='small text-gray'>RG Nets’ series 4 turn-key gateways enable 
+                    revenue generating network operators to easily and affordably 
+                    deploy cutting edge capabilities to maximize profitability for 
+                    small and medium sized revenue generating networks.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
       <div class='card mt-3'>
         <div class='card-body px-0 px-md-1'>
           <div class='row align-items-center px-1'>
-            <div class='col-md-6'>
+            <div class='col-md-6 order-md-2 bg-overlay'>
               <img src='assets/communication.svg' alt='communication' class='img-fluid' />
             </div>
-            <div class='col-md-6'>
+            <div class='col-md-6 order-md-1'>
               <h4 class='text-gray mb-0'><b>COMMUNICATION</b></h4>
               <p class='small text-gray'>Simplicity meets versatility and value in this 
                   feature-rich gateway product, thanks to a flexible, tiered 
@@ -80,23 +99,6 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <div class='card mt-1'>
-          <div class='card-body px-0 px-md-1'>
-            <div class='row align-items-center px-1'>
-              <div class='col-md-6 order-md-2'>
-                <img src='assets/control.svg' alt='control' class='img-fluid' />
-              </div>
-              <div class='col-md-6 order-md-1'>
-                  <h4 class='text-gray mb-0'><b>CONTROL</b></h4>
-                  <p class='small text-gray'>RG Nets’ series 4 turn-key gateways enable 
-                    revenue generating network operators to easily and affordably 
-                    deploy cutting edge capabilities to maximize profitability for 
-                    small and medium sized revenue generating networks.</p>
-              </div>
-            </div>
-          </div>
       </div>
 
       <div class='card mt-1'>
@@ -165,14 +167,19 @@
         </div>
       </div>
 
-      <div class='card'>
+      <div class='card bg-overlay'>
         <div class='card-body'>
-          <div class='row'>
-            <div>
+          <div class='row align-items-center'>
+            <div class='col-md-6 text-md-right'>
               <img src='assets/news-pig.svg' class='img-fluid' />
             </div>
-            <div>
+            <div class='col-md-6 text-md-left'>
               <h4 class='text-gray'><b>Sign Up For Our Newsletter</b></h4>
+              <div class='d-flex flex-row'>
+                <label for='your email' class='sr-only'>Your Email</label>
+                <input type='email' class='form-control input-r' id='email'>
+                <button type='submit' class='btn btn-primary text-white'>Submit</button>
+              </div>
             </div>
           </div>
         </div>
@@ -182,16 +189,16 @@
 
     <footer>
 
-          <div class='row px-2 small justify-content-around'>
-            <div class='col-4 pt-3 pl-1 d-flex flex-row justify-content-around'>
+          <div class='row px-2 small text-center justify-content-md-around'>
+            <div class='col-md pt-3 pl-md-1 d-md-flex flex-md-row justify-content-around'>
               <a href='#'>Terms and Conditions</a>
               <a href='#'>Legal</a>
               <p>info@rgnets.com</p>
             </div>
-            <div class='col-4 text-center'>
+            <div class='col-md text-center'>
               <img src='assets/pig-footer.svg' class='img-fluid' width='30%'/>
             </div>
-            <div class='col-4 pt-3 text-right'>
+            <div class='col-md pt-3 text-md-right'>
               <p>©2020 RG NETS, Inc. | All right reserved.</p>
             </div>
           </div>
